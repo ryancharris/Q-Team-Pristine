@@ -1,9 +1,0 @@
-version: 2 
- 
-sources:
-  - name: subscription_data
-    database: LARGE_DBT_CLOUD_PROJECT_RAW_DATA
-    tables:
-      - name: account
-      - name: order_product
-      - name: product
